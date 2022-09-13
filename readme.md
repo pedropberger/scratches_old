@@ -1,1 +1,1 @@
-Place for coding test
+Place for coding test and store scratches.
