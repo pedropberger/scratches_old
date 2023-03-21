@@ -1,0 +1,560 @@
+---
+title: "Plano de Atuação de Promotorias de Justiça 2022-2023"
+author: "Ministério Público do Estado do Espírito Santo"
+date: "2023-02-06"
+output:
+  pdf_document: default
+  word_document: default
+  html_document: default
+---
+
+```{r include=FALSE}
+knitr::opts_chunk$set(comment = NA)
+####lembrar de instalar no primeiro uso
+# tinytex::install_tinytex()
+#install.packages(readxl)
+```
+
+```{r inicialização, include=FALSE}
+library(readxl)
+df <- read_excel("C:/Users/pberger/OneDrive - Ministerio Publico do Espirito Santo/AGE/PAPJ/PAPJ.xlsx", sheet = "Form1")
+```
+
+### 1 - Cargo: área de atribuição  
+
+```{r resposta 1, echo=FALSE}
+elemento <- df[nrow(df),6]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+
+### 2 - Nome completo  
+
+```{r resposta 2, echo=FALSE}
+elemento <- df[nrow(df),7]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 3 - Cargo: número do cargo   
+
+```{r resposta 3, echo=FALSE}
+elemento <- df[nrow(df),8]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 4 - Cargo: município ou comarca  
+
+```{r resposta 4, echo=FALSE}
+elemento <- df[nrow(df),9]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 5 - Atribuições do cargo ao qual o Plano de Atuação está vinculado.  
+
+```{r resposta 5, echo=FALSE}
+elemento <- df[nrow(df),10]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 6 - Quadro de pessoal  
+
+```{r resposta 6, echo=FALSE}
+elemento <- df[nrow(df),11]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 7 - Indique os temas / assuntos mais recorrentes dos procedimentos judiciais em trâmite na Promotoria de Justiça  
+
+```{r resposta 7, echo=FALSE}
+elemento <- df[nrow(df),12]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 8 - Indique os temas / assuntos mais recorrentes dos procedimentos extrajudiciais em trâmite na Promotoria de Justiça  
+
+```{r resposta 8, echo=FALSE}
+elemento <- df[nrow(df),13]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 9 - Na sua análise, qual(ais) a(s) principal(ais) causa(s) sociais, culturais, econômicas, dentre outras que podem ser relacionadas às demandas acima identificadas?   
+
+```{r resposta 9, echo=FALSE}
+elemento <- df[nrow(df),14]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 10 - Quer incluir em seu Plano de Atuação (PAPJ 22-23), estratégias relacionadas à área Criminal?  
+
+```{r resposta 10, echo=FALSE}
+elemento <- df[nrow(df),15]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 11 - Qual(ais) estratégia(s) de atuação relacionada(s) à área Criminal irá incluir em seu Plano de Atuação de Promotoria de Justiça (PAPJ)? Assinale quantas alternativas quiser.
+
+```{r resposta 11, echo=FALSE}
+elemento <- df[nrow(df),16]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 12 - Justifique a escolha da(s) estratégia(s) acima:  
+
+```{r resposta 12, echo=FALSE}
+elemento <- df[nrow(df),17]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 13 - Para cada estratégia de atuação assinalada na questão anterior, descreva, sucintamente, o que planeja executar no ano de 2023.  
+
+```{r resposta 13, echo=FALSE}
+elemento <- df[nrow(df),18]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 14 - Quer incluir em seu Plano de Atuação (PAPJ 22-23), estratégias relacionadas à área da Infância e Juventude?  
+
+```{r resposta 14, echo=FALSE}
+elemento <- df[nrow(df),19]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 15 - Qual(ais) estratégia(s) de atuação relacionada(s) à Infância e Juventude irá incluir em seu Plano de Atuação de Promotoria de Justiça (PAPJ)? Assinale quantas alternativas quiser.  
+
+```{r resposta 15, echo=FALSE}
+elemento <- df[nrow(df),20]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 16 - Justifique a escolha da(s) estratégia(s) acima:  
+
+```{r resposta 16, echo=FALSE}
+elemento <- df[nrow(df),21]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 17 - "Quer incluir em seu Plano de Atuação (PAPJ 22-23), estratégias relacionadas à área da Cidadania?
+
+```{r resposta 17, echo=FALSE}
+elemento <- df[nrow(df),22]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 18 - "Qual(ais) estratégia(s) de atuação relacionada(s) à Cidadania irá incluir em seu Plano de Atuação de Promotoria de Justiça (PAPJ)? Assinale quantas alternativas quiser.
+
+```{r resposta 18, echo=FALSE}
+elemento <- df[nrow(df),23]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 19 - Justifique a escolha da(s) estratégia(s) acima:3  
+
+```{r resposta 19, echo=FALSE}
+elemento <- df[nrow(df),24]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 20 - Para cada estratégia de atuação assinalada na questão anterior, descreva, sucintamente, o que planeja executar no ano de 2023.2  
+
+```{r resposta 20, echo=FALSE}
+elemento <- df[nrow(df),25]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 21 - Quer incluir em seu Plano de Atuação (PAPJ 22-23), estratégias relacionadas à área da Defesa Comunitária?  
+
+```{r resposta 21, echo=FALSE}
+elemento <- df[nrow(df),26]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 22 - "Qual(ais) estratégia(s) de atuação relacionada(s) à Defesa Comunitária irá incluir em seu Plano de Atuação de Promotoria de Justiça (PAPJ)? Assinale quantas alternativas quiser.
+
+```{r resposta 22, echo=FALSE}
+elemento <- df[nrow(df),27]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 23 - Justifique a escolha da(s) estratégia(s) acima:4  
+
+```{r resposta 23, echo=FALSE}
+elemento <- df[nrow(df),28]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 24 - Para cada estratégia de atuação assinalada na questão anterior, descreva, sucintamente, o que planeja executar no ano de 2023.3  
+
+```{r resposta 24, echo=FALSE}
+elemento <- df[nrow(df),29]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 25 - "Quer incluir em seu Plano de Atuação (PAPJ 22-23), estratégias relacionadas à área de Direitos Humanos?
+
+```{r resposta 25, echo=FALSE}
+elemento <- df[nrow(df),30]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 26 - "Qual(ais) estratégia(s) de atuação relacionada(s) a Direitos Humanos irá incluir em seu Plano de Atuação de Promotoria de Justiça (PAPJ)? Assinale quantas alternativas quiser.
+
+```{r resposta 26, echo=FALSE}
+elemento <- df[nrow(df),31]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 27 - Justifique a escolha da(s) estratégia(s) acima:
+
+```{r resposta 27, echo=FALSE}
+elemento <- df[nrow(df),32]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 28 - Para cada estratégia de atuação assinalada na questão anterior, descreva, sucintamente, o que planeja executar no ano de 2023.
+
+```{r resposta 28, echo=FALSE}
+elemento <- df[nrow(df),33]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 29 - Quer incluir em seu Plano de Atuação (PAPJ 22-23), estratégias relacionadas à área da Violência Doméstica e Familiar contra a Mulher?  
+
+```{r resposta 29, echo=FALSE}
+elemento <- df[nrow(df),34]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 30 - "Qual(ais) estratégia(s) de atuação relacionada(s) à Defesa do Patrimônio Público irá incluir em seu Plano de Atuação de Promotoria de Justiça (PAPJ)? Assinale quantas alternativas quiser.
+
+```{r resposta 30, echo=FALSE}
+elemento <- df[nrow(df),35]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 31 - "Qual(ais) estratégia(s) de atuação relacionada(s) a Direitos do Consumidor irá incluir em seu Plano de Atuação de Promotoria de Justiça (PAPJ)? Assinale quantas alternativas quiser.
+
+```{r resposta 31, echo=FALSE}
+elemento <- df[nrow(df),36]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+```{r pergunta 32, echo=FALSE, results='asis'}
+cat("**32 - Qual(ais) estratégia(s) de atuação relacionada(s) à Violência Doméstica e Familiar contra a Mulher irá incluir em seu Plano de Atuação de Promotoria de Justiça (PAPJ)?**")
+```
+
+```{r resposta 32, echo=FALSE}
+elemento <- df[nrow(df),37]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 33 - Justifique a escolha da(s) estratégia(s) acima:
+
+```{r resposta 33, echo=FALSE}
+elemento <- df[nrow(df),38]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 34 - Para cada estratégia de atuação assinalada na questão anterior, descreva, sucintamente, o que planeja executar no ano de 2023. 
+
+```{r resposta 34, echo=FALSE}
+elemento <- df[nrow(df),39]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 35 - Quer incluir em seu Plano de Atuação (PAPJ 22-23), estratégias relacionadas à área Eleitoral?  
+
+```{r resposta 35, echo=FALSE}
+elemento <- df[nrow(df),40]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 36 - "Qual(ais) estratégia(s) de atuação relacionada(s) à área Eleitoral irá incluir em seu Plano de Atuação de Promotoria de Justiça (PAPJ)? Assinale quantas alternativas quiser.
+
+```{r resposta 36, echo=FALSE}
+elemento <- df[nrow(df),41]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 37 - Justifique a escolha da(s) estratégia(s) acima:
+
+```{r resposta 37, echo=FALSE}
+elemento <- df[nrow(df),42]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 38 - Para cada estratégia de atuação assinalada na questão anterior, descreva, sucintamente, o que planeja executar no ano de 2023.  
+
+```{r resposta 38, echo=FALSE}
+elemento <- df[nrow(df),43]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 39 - Quer incluir em seu Plano de Atuação (PAPJ 22-23), estratégias relacionadas à área da Defesa do Patrimônio Público?  
+
+```{r resposta 39, echo=FALSE}
+elemento <- df[nrow(df),44]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 40 - Justifique a escolha da(s) estratégia(s) acima: 
+
+```{r resposta 40, echo=FALSE}
+elemento <- df[nrow(df),45]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 41 - Para cada estratégia de atuação assinalada na questão anterior, descreva, sucintamente, o que planeja executar no ano de 2023.
+
+```{r resposta 41, echo=FALSE}
+elemento <- df[nrow(df),46]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 42 - Quer incluir em seu Plano de Atuação (PAPJ 22-23), estratégias relacionadas à área de Direitos do Consumidor?  
+
+```{r resposta 42, echo=FALSE}
+elemento <- df[nrow(df),47]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 43 - Justifique a escolha da(s) estratégia(s) acima: 
+
+```{r resposta 43, echo=FALSE}
+elemento <- df[nrow(df),48]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 44 - Para cada estratégia de atuação assinalada na questão anterior, descreva, sucintamente, o que planeja executar no ano de 2023.
+
+```{r resposta 44, echo=FALSE}
+elemento <- df[nrow(df),49]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 45 - Quer incluir em seu Plano de Atuação (PAPJ 22-23), estratégias relacionadas à área do Controle externo da atividade policial?  
+
+```{r resposta 45, echo=FALSE}
+elemento <- df[nrow(df),50]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 46 - "Qual(ais) estratégia(s) de atuação relacionada(s) ao Controle externo da atividade policial irá incluir em seu Plano de Atuação de Promotoria de Justiça (PAPJ)? Assinale quantas alternativas quiser.
+
+```{r resposta 46, echo=FALSE}
+elemento <- df[nrow(df),51]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 47 - Justifique a escolha da(s) estratégia(s) acima:  
+
+```{r resposta 47, echo=FALSE}
+elemento <- df[nrow(df),52]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 48 - Para cada estratégia de atuação assinalada na questão anterior, descreva, sucintamente, o que planeja executar no ano de 2023.
+
+```{r resposta 48, echo=FALSE}
+elemento <- df[nrow(df),53]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 49 - Quer incluir em seu Plano de Atuação (PAPJ 22-23), estratégias relacionadas à área da Execução Penal?  
+
+```{r resposta 49, echo=FALSE}
+elemento <- df[nrow(df),54]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 50 - "Qual(ais) estratégia(s) de atuação relacionada(s) à Execução Penal irá incluir em seu Plano de Atuação de Promotoria de Justiça (PAPJ)? Assinale quantas alternativas quiser.
+
+```{r resposta 50, echo=FALSE}
+elemento <- df[nrow(df),55]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 51 - Justifique a escolha da(s) estratégia(s) acima: 
+
+```{r resposta 51, echo=FALSE}
+elemento <- df[nrow(df),56]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 52 - Para cada estratégia de atuação assinalada na questão anterior, descreva, sucintamente, o que planeja executar no ano de 2023.
+
+```{r resposta 52, echo=FALSE}
+elemento <- df[nrow(df),57]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 53 - "Qual(ais) estratégia(s) de atuação relacionada(s) à Saúde irá incluir em seu Plano de Atuação de Promotoria de Justiça (PAPJ)? Assinale quantas alternativas quiser.
+
+```{r resposta 53, echo=FALSE}
+elemento <- df[nrow(df),58]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 54 - Justifique a escolha da(s) estratégia(s) acima:  
+
+```{r resposta 54, echo=FALSE}
+elemento <- df[nrow(df),59]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 55 - Para cada estratégia de atuação assinalada na questão anterior, descreva, sucintamente, o que planeja executar no ano de 2023.
+
+```{r resposta 55, echo=FALSE}
+elemento <- df[nrow(df),60]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 56 - Quer incluir em seu Plano de Atuação (PAPJ 22-23), estratégias relacionadas à área da Educação?  
+
+```{r resposta 56, echo=FALSE}
+elemento <- df[nrow(df),61]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 57 - Justifique a escolha da(s) estratégia(s) acima:
+
+```{r resposta 57, echo=FALSE}
+elemento <- df[nrow(df),62]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 58 - Para cada estratégia de atuação assinalada na questão anterior, descreva, sucintamente, o que planeja executar no ano de 2023.
+
+```{r resposta 58, echo=FALSE}
+elemento <- df[nrow(df),63]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 59 - Justifique a escolha da(s) estratégia(s) acima:
+
+```{r resposta 59, echo=FALSE}
+elemento <- df[nrow(df),64]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 60 - Para cada estratégia de atuação assinalada na questão anterior, descreva, sucintamente, o que planeja executar no ano de 2023.
+
+```{r resposta 60, echo=FALSE}
+elemento <- df[nrow(df),65]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 61 - Registre no campo a seguir a(s) estratégia(s) específica(s) a ser(em) destacada(s) no Plano de Atuação. Importante constar a iniciativa a ser desenvolvida e o(s) resultado(s) pretendido(s).  
+
+```{r resposta 61, echo=FALSE}
+elemento <- df[nrow(df),66]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 62 - Para cada estratégia de atuação assinalada na questão anterior, descreva, sucintamente, o que planeja executar no ano de 2023.
+
+```{r resposta 62, echo=FALSE}
+elemento <- df[nrow(df),67]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 63 - Quer incluir em seu Plano de Atuação (PAPJ 22-23), estratégias relacionadas à área da Saúde?  
+
+```{r resposta 63, echo=FALSE}
+elemento <- df[nrow(df),68]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 64 - "Qual(ais) estratégia(s) de atuação relacionada(s) à Educação irá incluir em seu Plano de Atuação de Promotoria de Justiça (PAPJ)? Assinale quantas alternativas quiser.
+
+```{r resposta 64, echo=FALSE}
+elemento <- df[nrow(df),69]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 65 - Quer incluir em seu Plano de Atuação (PAPJ 22-23), estratégias relacionadas à área do Meio Ambiente?  
+
+```{r resposta 65, echo=FALSE}
+elemento <- df[nrow(df),70]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 66 - "Qual(ais) estratégia(s) de atuação relacionada(s) ao Meio Ambiente irá incluir em seu Plano de Atuação de Promotoria de Justiça (PAPJ)? Assinale quantas alternativas quiser.
+
+```{r resposta 66, echo=FALSE}
+elemento <- df[nrow(df),71]
+celemento <- as.character(elemento)
+cat(celemento)
+```
+
+### 67 - Justifique a escolha da(s) estratégia(s) acima:
+
+```{r resposta 67, echo=FALSE}
+elemento <- df[nrow(df),72]
+celemento <- as.character(elemento)
+cat(celemento)
+```
